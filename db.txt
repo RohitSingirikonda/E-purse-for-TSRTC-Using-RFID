@@ -1,0 +1,12 @@
+create database tsrtc;
+use tsrtc;
+create table issue_card(card_holder_name varchar(50),
+contact_no varchar(50),
+address varchar(50),
+card_no varchar(50),
+issue_date date,
+amount double);
+
+create table addemployes(username varchar(50),password varchar(50));
+
+create table addfare(source varchar(50),destination varchar(50),amount double);
